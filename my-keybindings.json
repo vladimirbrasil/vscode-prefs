@@ -1,12 +1,12 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+shift+d",
+        "key": "ctrl+d",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+d",
+        "key": "ctrl+shift+d",
         "command": "editor.action.addSelectionToNextFindMatch",
         "when": "editorTextFocus"
     },
@@ -18,6 +18,11 @@
     {
         "key": "ctrl+shift+down",
         "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFolder",
         "when": "editorTextFocus"
     }
 ]
