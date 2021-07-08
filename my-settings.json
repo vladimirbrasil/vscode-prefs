@@ -1,8 +1,22 @@
-// Place your settings in this file to overwrite the default settings
 {
-    "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
-    "editor.fontFamily": "Ubuntu Mono",
+    "files.autoSave": "onFocusChange",
     "editor.fontSize": 13,
-    "git.confirmSync": false
-  }
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "window.zoomLevel": 0,
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "github.copilot.advanced": {
+
+    },
+    "github.copilot.autocomplete.enable": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": false
+    }
+}
